@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "server"
+		},
+		{
+			"path": "client"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"Hashmi",
+			"KHIZAR",
+			"Mohd"
+		]
+	}
+}

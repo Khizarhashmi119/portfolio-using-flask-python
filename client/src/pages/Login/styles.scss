@@ -1,0 +1,40 @@
+#login {
+  background-color: var(--color-2);
+  border-bottom: 1px solid var(--color-3);
+  min-height: 80vh;
+}
+
+#login .container {
+  padding: 3% 5%;
+}
+
+.login-title {
+  margin: 2rem 0;
+}
+
+.login-form {
+  background-color: var(--color-1);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  margin: 2rem auto;
+  padding: 6% 8%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.login-input-email,
+.login-input-password {
+  background-color: var(--color-2);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  color: var(--color-0);
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.login-btn {
+  width: 100%;
+}

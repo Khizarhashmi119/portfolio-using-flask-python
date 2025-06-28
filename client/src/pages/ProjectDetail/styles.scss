@@ -1,0 +1,52 @@
+#project-detail-page {
+  background-color: var(--color-2);
+  border-bottom: 1px solid var(--color-3);
+  min-height: 80vh;
+}
+
+#project-detail-page .container {
+  padding: 3% 5%;
+}
+
+.project-title {
+  margin: 1rem 0;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+.project-img {
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  max-height: 400px;
+  margin: 1rem 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.project-link {
+  font-size: 2rem;
+  color: var(--color-0);
+  margin-left: 2rem;
+}
+
+.project-detail {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.project-date {
+  text-align: right;
+}

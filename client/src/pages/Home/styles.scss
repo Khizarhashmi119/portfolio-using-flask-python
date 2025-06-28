@@ -1,0 +1,245 @@
+#title {
+  background-color: var(--color-1);
+  border-bottom: 1px solid var(--color-3);
+  height: 600px;
+}
+
+#title .container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.terminal {
+  height: 90%;
+}
+
+.terminal-top {
+  align-items: center;
+  background-color: var(--color-1);
+  border-top: 1px solid var(--color-3);
+  border-left: 1px solid var(--color-3);
+  border-right: 1px solid var(--color-3);
+  border-radius: 0.6rem 0.6rem 0 0;
+  display: flex;
+  height: 8%;
+  padding-left: 10px;
+}
+
+.dot-1 {
+  background-color: #fc6058;
+  border-radius: 50%;
+  height: 15px;
+  margin: 5px;
+  width: 15px;
+}
+
+.dot-2 {
+  background-color: #fec02f;
+  border-radius: 50%;
+  height: 15px;
+  margin: 5px;
+  width: 15px;
+}
+
+.dot-3 {
+  background-color: #2aca3e;
+  border-radius: 50%;
+  height: 15px;
+  margin: 5px;
+  width: 15px;
+}
+
+.terminal-bottom {
+  align-items: center;
+  background-color: var(--color-2);
+  border-top: 1px solid var(--color-3);
+  border-left: 1px solid var(--color-3);
+  border-right: 1px solid var(--color-3);
+  display: flex;
+  flex-direction: column;
+  height: 92%;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5.625rem;
+  margin: 1rem;
+}
+
+.sub-title {
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+.name {
+  color: var(--color-4);
+}
+
+.theme-dots {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+  width: 150px;
+}
+
+.theme-dot-1 {
+  background-color: #fff;
+  border: 2px solid var(--color-0);
+  cursor: pointer;
+  border-radius: 50%;
+  height: 2rem;
+  transition: transform 0.3s;
+  width: 2rem;
+}
+
+.theme-dot-2 {
+  background-color: #192734;
+  border: 2px solid var(--color-0);
+  cursor: pointer;
+  border-radius: 50%;
+  height: 2rem;
+  transition: transform 0.3s;
+  width: 2rem;
+}
+
+.theme-dot-1:hover,
+.theme-dot-2:hover {
+  transform: scale(1.2);
+}
+
+.setting-note {
+  margin: 1rem;
+  width: 60%;
+}
+
+#about {
+  background-color: var(--color-2);
+  border-bottom: 1px solid var(--color-3);
+}
+
+#about .container {
+  padding: 3% 5%;
+}
+
+.about-title {
+  margin: 2rem 0;
+}
+
+.about-me {
+  margin: 2rem 0;
+}
+
+.social-links {
+  margin: 2rem 0;
+}
+
+.social-link {
+  margin: 1.5rem;
+}
+
+.skills-title {
+  margin: 2rem 0;
+}
+
+.skills {
+  background-color: var(--color-5);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 2rem 0;
+  padding: 3%;
+}
+
+#projects-preview {
+  background-color: var(--color-1);
+  border-bottom: 1px solid var(--color-3);
+}
+
+#projects-preview .container {
+  padding: 3% 5%;
+  margin: auto;
+  text-align: center;
+  width: 88%;
+}
+
+.projects-preview-title {
+  margin: 2rem 0;
+}
+
+.projects-page-link {
+  margin: 2rem 0;
+}
+
+#contact {
+  background-color: var(--color-2);
+  border-bottom: 1px solid var(--color-3);
+}
+
+#contact .container {
+  padding: 3% 5%;
+}
+
+.contact-title {
+  margin: 2rem;
+}
+
+.contact-form {
+  background-color: var(--color-1);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  margin: 2rem auto;
+  padding: 6% 8%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.contact-input-name {
+  background-color: var(--color-2);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  color: var(--color-0);
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.contact-input-subject {
+  background-color: var(--color-2);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  color: var(--color-0);
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.contact-input-email {
+  background-color: var(--color-2);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  color: var(--color-0);
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.contact-message {
+  background-color: var(--color-2);
+  border: 1px solid var(--color-3);
+  border-radius: 0.25rem;
+  color: var(--color-0);
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  resize: vertical;
+}
+
+.contact-btn {
+  width: 100%;
+}

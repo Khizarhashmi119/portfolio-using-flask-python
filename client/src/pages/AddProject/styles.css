@@ -1,0 +1,13 @@
+#add-project {
+  background-color: var(--color-2);
+  border-bottom: 1px solid var(--color-3);
+  min-height: 80vh;
+}
+
+#add-project .container {
+  padding: 2% 0%;
+}
+
+.add-project-title {
+  margin: 1rem 0;
+}
